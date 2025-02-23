@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SuperbLogin</class>
+ <widget class="QMainWindow" name="SuperbLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>870</width>
+    <height>571</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>870</width>
+    <height>571</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Superb</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../../../../../../../../../../PycharmProjects/Superb/file_rc.qrc">
+    <normaloff>:/Icone Site/images/icone site.png</normaloff>:/Icone Site/images/icone site.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>870</width>
+     <height>545</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="cabecalho">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(13, 15, 31);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>7</number>
+       </property>
+       <property name="leftMargin">
+        <number>11</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>11</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="login_error">
+         <property name="maximumSize">
+          <size>
+           <width>515</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(24, 22, 35);
+color: rgb(219, 149, 121);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="texto_erro_login">
+            <property name="font">
+             <font>
+              <family>OCR A Extended</family>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Usuário/Senha não podem estar vazios.</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="fechar_cabecalho">
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	background-color: rgb(105, 31, 21);
+	border: 2px solid rgb(77, 21, 13);
+	border-radius: 5px;
+	color: rgb(219, 149, 121);
+}
+QPushButton:hover {
+	background-color: rgb(141, 44, 31);
+	border: 2px solid rgb(105, 32, 22);
+}
+QPushButton:pressed {
+	background-color: rgb(24, 22, 35);
+	border: 2px solid rgb(219, 149, 121);
+}</string>
+            </property>
+            <property name="text">
+             <string>X</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="central">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(14, 33, 64, 255), stop:0.208955 rgba(39, 35, 57, 255), stop:0.830846 rgba(141, 44, 31, 255), stop:1 rgba(199, 49, 15, 255));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="leftMargin">
+        <number>11</number>
+       </property>
+       <property name="topMargin">
+        <number>11</number>
+       </property>
+       <property name="rightMargin">
+        <number>11</number>
+       </property>
+       <property name="bottomMargin">
+        <number>11</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="conteudo">
+         <property name="maximumSize">
+          <size>
+           <width>550</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(12, 14, 28);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLineEdit" name="user">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>250</y>
+            <width>361</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>OCR A Extended</family>
+            <pointsize>9</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+	border: 2px solid rgb(25, 28, 41);
+	border-radius: 3px;
+	padding: 10px;
+	background-color: rgb(41, 43, 56);
+	color: rgb(228, 230, 235);
+}
+QLineEdit:hover {
+	border: 2px solid rgb(12, 14, 28);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(199, 49, 15);
+}</string>
+          </property>
+          <property name="maxLength">
+           <number>32</number>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Normal</enum>
+          </property>
+          <property name="placeholderText">
+           <string>usuario</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="conectar_login">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>350</y>
+            <width>171</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>OCR A Extended</family>
+            <pointsize>9</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(105, 31, 21);
+	border: 2px solid rgb(77, 21, 13);
+	border-radius: 5px;
+	color: rgb(219, 149, 121);
+}
+QPushButton:hover {
+	background-color: rgb(141, 44, 31);
+	border: 2px solid rgb(105, 32, 22);
+}
+QPushButton:pressed {
+	background-color: rgb(24, 22, 35);
+	border: 2px solid rgb(219, 149, 121);
+}</string>
+          </property>
+          <property name="text">
+           <string>CONECTAR À SUPERB</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="icon_user">
+          <property name="geometry">
+           <rect>
+            <x>75</x>
+            <y>250</y>
+            <width>31</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">image: url(:/User/images/user.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="icon_senha">
+          <property name="geometry">
+           <rect>
+            <x>75</x>
+            <y>300</y>
+            <width>31</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">image: url(:/Senha/images/senha.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="fechar_login">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>350</y>
+            <width>171</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>OCR A Extended</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: rgb(24, 22, 35);
+	border: 2px solid rgb(219, 149, 121);
+	border-radius: 5px;
+	color: rgb(219, 149, 121);
+}
+QPushButton:hover {
+	background-color: rgb(23, 19, 48);
+	border: 2px solid rgb(219, 149, 121);
+}
+QPushButton:pressed {
+	background-color: rbg(250, 270, 200);
+	border: 2px solid rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>FECHAR</string>
+          </property>
+         </widget>
+         <widget class="QFrame" name="logo_superb">
+          <property name="geometry">
+           <rect>
+            <x>75</x>
+            <y>19</y>
+            <width>400</width>
+            <height>231</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-position: center;
+image: url(:/Logo/images/logo.png);
+background-repeat: no-repeat;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="user_2">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>300</y>
+            <width>361</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>OCR A Extended</family>
+            <pointsize>9</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+	border: 2px solid rgb(25, 28, 41);
+	border-radius: 3px;
+	padding: 10px;
+	background-color: rgb(41, 43, 56);
+	color: rgb(228, 230, 235);
+}
+QLineEdit:hover {
+	border: 2px solid rgb(12, 14, 28);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(199, 49, 15);
+}</string>
+          </property>
+          <property name="maxLength">
+           <number>16</number>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>senha</string>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../../../../../../../../PycharmProjects/Superb/file_rc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>fechar_login</sender>
+   <signal>pressed()</signal>
+   <receiver>SuperbLogin</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>355</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>285</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

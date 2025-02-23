@@ -1,0 +1,91 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>images/logo.png</file>
+  </qresource>
+  <qresource prefix="BibJogos">
+    <file>images/BibBombRush.png</file>
+    <file>images/BibCeleste.png</file>
+    <file>images/BibMurkyDivers.png</file>
+    <file>images/BibHades2.png</file>
+    <file>images/BibMulletMadjack.png</file>
+    <file>images/BibNineSols.png</file>
+    <file>images/BibScratchinMelodii.png</file>
+  </qresource>
+  <qresource prefix="BibAv">
+    <file>images/BibGostei.png</file>
+    <file>images/BibNGostei.png</file>
+  </qresource>
+  <qresource prefix="Avaliacoes">
+    <file>images/labelAvBombRush_pag3.png</file>
+    <file>images/labelAvCeleste_pag3.png</file>
+    <file>images/labelAvHades2_pag3.png</file>
+    <file>images/labelAvMulletMadjack_pag3.png</file>
+    <file>images/labelAvMurkyDivers_pag3.png</file>
+    <file>images/labelAvNineSols_pag3.png</file>
+    <file>images/labelAvScratchinMelodii_pag3.png</file>
+  </qresource>
+  <qresource prefix="Setas">
+    <file>images/DownArrow-TextEdit_pag3.png</file>
+    <file>images/UpArrow-TextEdit_pag3.png</file>
+  </qresource>
+  <qresource prefix="Av Gostei">
+    <file>images/RBotaoGostei_checked_pag3.png</file>
+    <file>images/RBotaoGostei_hover_pag3.png</file>
+    <file>images/RBotaoGostei_pag3.png</file>
+    <file>images/RBotaoGostei_pressed_pag3.png</file>
+  </qresource>
+  <qresource prefix="Av NGostei">
+    <file>images/RBotaoNGostei_checked_pag3.png</file>
+    <file>images/RBotaoNGostei_hover_pag3.png</file>
+    <file>images/RBotaoNGostei_pag3.png</file>
+    <file>images/RBotaoNGostei_pressed_pag3.png</file>
+  </qresource>
+  <qresource prefix="Jogo Hades 2">
+    <file>images/header_hades_hover_pag2.png</file>
+    <file>images/header_hades_pag2.jpg</file>
+  </qresource>
+  <qresource prefix="Jogo Scratchin Melodii">
+    <file>images/scratchinmelodii_hover_pag2.png</file>
+    <file>images/scratchinmelodii_pag2.png</file>
+  </qresource>
+  <qresource prefix="Jogo Nine Sols">
+    <file>images/ninesols_hover_pag2.png</file>
+    <file>images/ninesols_pag2.png</file>
+  </qresource>
+  <qresource prefix="Jogo Celeste">
+    <file>images/celeste_hover_pag2.png</file>
+    <file>images/celeste_pag2.png</file>
+  </qresource>
+  <qresource prefix="Jogo Mullet Madjack">
+    <file>images/mulletmadjack_hover_pag2.png</file>
+    <file>images/mulletmadjack_pag2.png</file>
+  </qresource>
+  <qresource prefix="Jogo Murky Divers">
+    <file>images/murkydivers_hover_pag2.png</file>
+    <file>images/murkydivers_pag2.png</file>
+  </qresource>
+  <qresource prefix="Jogo BombRush">
+    <file>images/bombrush_hover_pag2.png</file>
+    <file>images/bombrush_pag2.png</file>
+  </qresource>
+  <qresource prefix="Login">
+    <file>images/casa_login_hover_pag2.png</file>
+    <file>images/casa_login_pag2.png</file>
+  </qresource>
+  <qresource prefix="Sair">
+    <file>images/sair_pag2.png</file>
+    <file>images/sair_hover_pag2.png</file>
+  </qresource>
+  <qresource prefix="Perfil">
+    <file>images/iconPerfil_pag2.png</file>
+  </qresource>
+  <qresource prefix="Icone Site">
+    <file>images/icone site.png</file>
+  </qresource>
+  <qresource prefix="User">
+    <file>images/user.png</file>
+  </qresource>
+  <qresource prefix="Senha">
+    <file>images/senha.png</file>
+  </qresource>
+</RCC>

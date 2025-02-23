@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SuperbInicio</class>
+ <widget class="QMainWindow" name="SuperbInicio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>870</width>
+    <height>571</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>870</width>
+    <height>571</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Superb</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icone inicio/images/icone site.png</normaloff>:/icone inicio/images/icone site.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>870</width>
+     <height>545</height>
+    </size>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0597015, y1:0.08, x2:0.93, y2:0.886, stop:0 rgba(21, 24, 48, 255), stop:1 rgba(199, 19, 15, 255));</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>468</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0.585227, x2:1, y2:0.574136, stop:0.223881 rgba(25, 28, 41, 255), stop:0.293532 rgba(27, 29, 53, 227), stop:0.58209 rgba(27, 29, 53, 227), stop:0.651741 rgba(97, 30, 21, 255));</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame2_pag2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(35, 30, 52);
+border-radius: 30px;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QFrame" name="frame1_pag2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>230</width>
+               <height>561</height>
+              </rect>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(25, 28, 41);
+border-radius: 30px;</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <widget class="QPushButton" name="botaoListaJogo_pag2">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>320</y>
+                <width>151</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>OCR A Extended</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+	background-color: rgb(25, 28, 41);
+	border: 2px solid rgb(35, 30, 52);
+	border-radius: 5px;
+	color: rgb(108, 83, 171);
+}
+QPushButton:hover {
+	background-color: rgb(35, 30, 52);
+	border: 2px solid rgb(175, 54, 38);
+	color: rgb(175, 54, 38);
+}
+QPushButton:pressed {
+	background-color: rbg(250, 270, 200);
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(219, 149, 121);
+}</string>
+              </property>
+              <property name="text">
+               <string>Suas Avaliações</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="iconPerfil_pag2">
+              <property name="geometry">
+               <rect>
+                <x>70</x>
+                <y>40</y>
+                <width>81</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius: 40px;
+background-image: url(:/iconPerfil_pag2/iconPerfil_pag2.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLabel" name="labelIconPerfil_pag2">
+              <property name="geometry">
+               <rect>
+                <x>69</x>
+                <y>40</y>
+                <width>81</width>
+                <height>81</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-radius: 40px;
+background-image: url(:/Perfil/images/iconPerfil_pag2.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLabel" name="labelNomeUser_pag2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>145</y>
+                <width>181</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>OCR A Extended</family>
+                <pointsize>9</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(175, 54, 38);</string>
+              </property>
+              <property name="text">
+               <string>Olá, xxxx!</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QLabel" name="labelVerificar_pag2">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>280</y>
+                <width>151</width>
+                <height>21</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>OCR A Extended</family>
+                <pointsize>9</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 230, 219);
+</string>
+              </property>
+              <property name="text">
+               <string>Verificar:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="botaoListaJogo_pag2_2">
+              <property name="geometry">
+               <rect>
+                <x>40</x>
+                <y>360</y>
+                <width>151</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>OCR A Extended</family>
+                <pointsize>9</pointsize>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+	background-color: rgb(25, 28, 41);
+	border: 2px solid rgb(35, 30, 52);
+	border-radius: 5px;
+	color: rgb(108, 83, 171);
+}
+QPushButton:hover {
+	background-color: rgb(35, 30, 52);
+	border: 2px solid rgb(175, 54, 38);
+	color: rgb(175, 54, 38);
+}
+QPushButton:pressed {
+	background-color: rbg(250, 270, 200);
+	border: 2px solid rgb(255, 255, 255);
+	color: rgb(219, 149, 121);
+}</string>
+              </property>
+              <property name="text">
+               <string>SteamApp</string>
+              </property>
+             </widget>
+             <zorder>iconPerfil_pag2</zorder>
+             <zorder>labelIconPerfil_pag2</zorder>
+             <zorder>labelNomeUser_pag2</zorder>
+             <zorder>labelVerificar_pag2</zorder>
+             <zorder>botaoListaJogo_pag2</zorder>
+             <zorder>botaoListaJogo_pag2_2</zorder>
+            </widget>
+            <widget class="QPushButton" name="botaoHades2_pag2">
+             <property name="geometry">
+              <rect>
+               <x>280</x>
+               <y>40</y>
+               <width>451</width>
+               <height>211</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="mouseTracking">
+              <bool>false</bool>
+             </property>
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Hades 2/images/header_hades_pag2.jpg);
+	border-radius: 12px;
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Hades 2/images/header_hades_hover_pag2.png);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoScratchinMelodii_pag2">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>300</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Scratchin Melodii/images/scratchinmelodii_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Scratchin Melodii/images/scratchinmelodii_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string>SCRATCHIN
+MELODII</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoCeleste_pag2">
+             <property name="geometry">
+              <rect>
+               <x>605</x>
+               <y>300</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Celeste/images/celeste_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Celeste/images/celeste_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string>CELESTE</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoNineSols_pag2">
+             <property name="geometry">
+              <rect>
+               <x>428</x>
+               <y>300</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Nine Sols/images/ninesols_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Nine Sols/images/ninesols_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string>NINE SOLS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoMulletMadjack_pag2">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>420</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Mullet Madjack/images/mulletmadjack_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Mullet Madjack/images/mulletmadjack_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string> MULLET
+MADJACK</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoMurkyDivers_pag2">
+             <property name="geometry">
+              <rect>
+               <x>428</x>
+               <y>420</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo Murky Divers/images/murkydivers_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo Murky Divers/images/murkydivers_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string>MURKY DIVERS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoBombRush_pag2">
+             <property name="geometry">
+              <rect>
+               <x>605</x>
+               <y>420</y>
+               <width>157</width>
+               <height>90</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>OCR A Extended</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+               <underline>false</underline>
+               <strikeout>false</strikeout>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	background-image: url(:/Jogo BombRush/images/bombrush_pag2.png);
+	border-radius: 12px;
+	color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.532338 rgba(27, 29, 53, 0));
+}
+QPushButton:hover {
+	background-image: url(:/Jogo BombRush/images/bombrush_hover_pag2.png);
+	color: rgb(234, 217, 255);
+}
+QPushButton:pressed {
+	border: 2px solid rgb(219, 149, 121);
+}
+</string>
+             </property>
+             <property name="text">
+              <string>BOMB RUSH
+CYBERFUNK</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame3_pag2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>70</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(97, 30, 21);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QPushButton" name="botaoVoltarLog_pag2">
+             <property name="geometry">
+              <rect>
+               <x>4</x>
+               <y>402</y>
+               <width>61</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	border: 2px solid rgb(97,30, 21);
+	background-image: url(:/Login/images/casa_login_pag2.png);
+	border-radius: 30px;
+}
+QPushButton:hover {
+	background-image: url(:/Login/images/casa_login_hover_pag2.png);
+	background-color: rgb(84, 26, 18);
+	border: 2px solid rgb(84, 26, 18);
+}
+QPushButton:pressed {
+	background-color: rgb(141, 44, 31);
+	border: 2px solid rgb(141, 44, 31);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="botaoSair_pag2">
+             <property name="geometry">
+              <rect>
+               <x>4</x>
+               <y>470</y>
+               <width>61</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+	border: 2px solid rgb(97,30, 21);
+	background-image: url(:/Sair/images/sair_pag2.png);
+	border-radius: 30px;
+}
+QPushButton:hover {
+	background-image: url(:/Sair/images/sair_hover_pag2.png);
+	background-color: rgb(84, 26, 18);
+	border: 2px solid rgb(84, 26, 18);
+}
+QPushButton:pressed {
+	background-color: rgb(141, 44, 31);
+	border: 2px solid rgb(141, 44, 31);
+}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="iconSuperb_pag2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>20</y>
+               <width>51</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">image: url(:/Icone Site/images/icone site.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>870</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../../../../../../../../PycharmProjects/Superb/file_rc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>botaoSair_pag2</sender>
+   <signal>clicked()</signal>
+   <receiver>SuperbInicio</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>825</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>285</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
